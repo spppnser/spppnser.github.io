@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spenser</title>
+  <style>
+    html,body{height:100%;margin:0}
+    body{background:#000;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#fff;overflow:hidden}
+    .wrap{height:100vh;display:flex;align-items:center;justify-content:space-between}
+    .left{width:48%;height:100%;display:flex;align-items:center;justify-content:center;background:#000}
+    .left img{height:92%;max-width:100%;object-fit:cover;display:block}
+    .right{width:52%;height:100%;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:6vh 8vw;box-sizing:border-box}
+    .name{font-size:4.25rem;line-height:1;margin:0 0 .5rem;font-weight:700}
+    .role{font-size:1.25rem;opacity:.9;margin:0 0 1.5rem}
+    .company{display:flex;align-items:center;gap:1rem}
+    .company img{height:56px;width:auto;display:block}
+    @media (max-width:900px){
+      .name{font-size:2.4rem}
+      .left{display:none}
+      .right{width:100%;padding:6vh 6vw}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="left">
+      <img src="img/profile.png" alt="profile">
+    </div>
+    <div class="right">
+      <h1 class="name">Spenser</h1><br>
+      <p class="role">IT and SOC with me.<br>
+      Investment Consultant</p>
+      <div class="company">
+        <img src="img/banner.png" alt="BlackRock logo">
+        <div>Part of BlackRock</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
